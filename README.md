@@ -17,6 +17,10 @@ List<String> strList = List.of("eat", "tea", "tan", "ate", "nat", "bat");
   - @see [dev.appkr.algorithm.anagrams.Anagrams](/java/src/main/java/dev/appkr/algorithm/anagrams/Anagrams.java)
   - @see [dev.appkr.algorithm.anagrams.Anagrams2](/java/src/main/java/dev/appkr/algorithm/anagrams/Anagrams.java)
 
+#### print binary
+- Q: 주어진 자연수를 이진수로 출력하라
+- S: @see [dev.appkr.algorithm.printBinary.PrintBinary](/java/src/main/java/dev/appkr/algorithm/printBinary/PrintBinary.java)
+
 #### factorial
 - 주어진 숫자부터 1까지의 숫자의 곱. e.g. factorial(4) = 4 * 3 * 2 * 1 = 24
 - Q: factorial 함수를 구현하라
