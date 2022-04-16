@@ -164,3 +164,15 @@ inner 7th|5|5|0|1
 #### power (승수)
 - Q: x를 밑으로 하고, n을 승수라 할 때 결과를 구하는 함수
 - S: @see [dev.appkr.algorithm.power.Power](/java/src/main/java/dev/appkr/algorithm/power/Power.java)
+
+#### search
+- Q: a~z 문자열에서 입력 문자 "w"의 인덱스를 구하라. 없으면 -1을 반환한다
+- S
+  - loop count = 23 -> `O(n)` 
+  - @see [dev.appkr.algorithm.search.LinearSearch](/java/src/main/java/dev/appkr/algorithm/search/LinearSearch.java)
+
+#### binary search
+- Q: a~z 정렬될 문자열에서 입력 문자 "w"의 인덱스를 구하라. 없으면 -1을 반환한다
+- S 
+  - loop count = 3 -> `O(log n)`
+  - @see [dev.appkr.algorithm.search.BinarySearch](/java/src/main/java/dev/appkr/algorithm/search/BinarySearch.java)
