@@ -11,7 +11,7 @@ List<String> strList = List.of("eat", "tea", "tan", "ate", "nat", "bat");
 [[eat, tea, ate], [bat], [tan, nat]]
 ```
 - S
-  - `Map<String, List<String>>` 사용
+  - 결과값을 담을 변수로 Map<String, List<String>> 사용
   - 문자 단위로 쪼개서 정렬하고 다시 조인
   - 정렬된 단어를 key로 하여, 원본 문자열을 value 리스트에 추가
   - @see [dev.appkr.algorithm.anagrams.Anagrams](/java/src/main/java/dev/appkr/algorithm/anagrams/Anagrams.java)
@@ -23,11 +23,11 @@ List<String> strList = List.of("eat", "tea", "tan", "ate", "nat", "bat");
 - S1: recursion
   - 입력값이 1이면, 1을 반환
   - 입력값이 1이 아니면, factorial(입력값 - 1) * 입력값을 반환
-  - factorial(15) takes 453_045ns
+  - factorial(15) takes **453_045ns**
 - S2: loop
-  - 결과를 담을 변수 p를 1로 초기화
-  - 1 ~ 입력값까지 순회하면서, p = p * i 
-  - factorial(15) takes 158_601ns (recursion보다 3배 빠름)
+  - 결과를 담을 변수 p = 1로 초기화
+  - i = 1 ~ 입력값까지 순회하면서, p = p * i 
+  - factorial(15) takes **158_601ns** (recursion보다 3배 빠름)
 - @see [dev.appkr.algorithm.factorial.Factorial](/java/src/main/java/dev/appkr/factorial/Factorial.java)
 
 #### fibonacci
@@ -38,12 +38,17 @@ List<String> strList = List.of("eat", "tea", "tan", "ate", "nat", "bat");
   - 입력값이 2이면 1을 반환한다
   - 다른 값이면, fibonacci(n - 1) + fibonacci(n - 2) 값을 반환 
   - **NOTE** fibonacci(48) 이상은 int 범위를 벗어남
-  - fibonacci(47) takes 7542ms
+  - fibonacci(47) takes **7542ms**
   - @see [dev.appkr.algorithm.fibonacci.Fibonacci](/java/src/main/java/dev/appkr/algorithm/fibonacci/Fibonacci.java)
 - S2: loop
   - n==1, n==2 인 경우는 이미 처리했으므로, 3부터 루프 시작
-  - fibonacci(47) takes 0ms
+  - fibonacci(47) takes **0ms**
   - @see [dev.appkr.algorithm.fibonacci.Fibonacci2](/java/src/main/java/dev/appkr/algorithm/fibonacci/Fibonacci2.java)
+
+#### greatest common factor (최대공약수)
+- 두 수의 약수중에 가장 큰 수 e.g. (10, 5) -> 5, (10, 6) -> 2
+- Q: gcd 함수를 구현하라
+- S: Euclid method @see [dev.appkr.algorithm.gcd.GreatestCommonFactor](/java/src/main/java/dev/appkr/algorithm/gcd/GreatestCommonFactor.java)
 
 #### maze (미로 찾기)
 - Q: 아래 8 by 8 미로에서 길 찾기를 하라. 출발점은 (0, 0) 끝점은 (8, 8). 찾은 길은 3으로 표시한다 
@@ -134,7 +139,7 @@ static int[][] maze = {
 >
 > [합성수(合成數, Composite Number)](https://namu.wiki/w/합성수): 여러 소수(素數)들이 곱셈으로 합쳐져서 이루어진 수를 말한다. 즉 임의의 자연수 n에 대해 1과 자기 자신을 제외한 다른 약수가 존재할 때, 이 수를 합성수라고 한다.
 
-#### prime factor (소인수 분해)
+#### prime factor (현소인수 분해)
 - Q: 매개변수로 주어진 자연수 n을 소수로 약분하여, n을 구성하는 소수의 집합을 반환하는 factorize 함수를 구현하라 e.g. 100 = [2, 2, 5, 5]
 - S: 이중 루프
   - divider = 2를 초기 값으로, 입력값 n이 1보다 클동안, divider를 1씩 증가시키면서 루프
@@ -151,3 +156,7 @@ inner 4th|25|3|1|8|exit inner
 inner 5th|25|4|1|6|exit inner
 inner 6th|25|5|0|5
 inner 7th|5|5|0|1
+
+#### power (승수)
+- Q: x를 밑으로 하고, n을 승수라 할 때 결과를 구하는 함수
+- S: @see [dev.appkr.algorithm.power.Power](/java/src/main/java/dev/appkr/algorithm/power/Power.java)
