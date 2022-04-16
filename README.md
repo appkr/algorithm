@@ -166,13 +166,24 @@ inner 7th|5|5|0|1
 - S: @see [dev.appkr.algorithm.power.Power](/java/src/main/java/dev/appkr/algorithm/power/Power.java)
 
 #### search
-- Q: a~z 문자열에서 입력 문자 "w"의 인덱스를 구하라. 없으면 -1을 반환한다
-- S
+- Q: 중복이 없고, 오름차순으로 정렬된 a~z 문자열에서 입력 문자 "w"의 인덱스를 구하라. 없으면 -1을 반환한다
+- S1: linear search
   - loop count = 23 -> `O(n)` 
   - @see [dev.appkr.algorithm.search.LinearSearch](/java/src/main/java/dev/appkr/algorithm/search/LinearSearch.java)
-
-#### binary search
-- Q: a~z 정렬될 문자열에서 입력 문자 "w"의 인덱스를 구하라. 없으면 -1을 반환한다
-- S 
+- S2: binary search 
   - loop count = 3 -> `O(log n)`
   - @see [dev.appkr.algorithm.search.BinarySearch](/java/src/main/java/dev/appkr/algorithm/search/BinarySearch.java)
+
+#### sort
+- Q: 오름차순으로 정렬하라
+```java
+int[] in = { 15, 23, 16, 21, 6, 8, 46, 40, 37, 43, 8, 3, 33 };
+```
+- S1: bubble sort
+  - 인접한 두 개를 비교하고 스왑; 작은 수를 왼쪽으로 하나씩 옮기고, 큰 수를 오른쪽으로 하나씩 옮긴다
+  - loop count = 37 -> `O(n^2)`
+  - @see [dev.appkr.algorithm.sort.BubbleSort](/java/src/main/java/dev/appkr/algorithm/sort/BubbleSort.java)
+  - @see [https://visualgo.net/en/sorting](https://visualgo.net/en/sorting)
+- S2: quick sort
+  - Working...
+
