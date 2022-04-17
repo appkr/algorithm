@@ -192,7 +192,15 @@ int[] in = { 15, 23, 16, 21, 6, 8, 46, 40, 37, 43, 8, 3, 33 };
   - TODO
 
 #### compression
-- TODO https://meshkorea.slack.com/archives/C777ES8JW/p1550663047066900?thread_ts=1550618137.050400&cid=C777ES8JW
+- Q: 문자열을 압축하라
+```java
+"aabbccca"
+```
+- E
+```java
+"a2b2c3a1"
+```
+- S: @see [dev.appkr.algorithm.compression.Compression](/java/src/main/java/dev/appkr/algorithm/compression/Compression.java)
 
 #### masking
 - Q: 주어진 문자열의 첫 문자, 마지막 문자를 제외한 문자를 *로 마스킹하라
