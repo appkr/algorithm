@@ -147,7 +147,7 @@ static int[][] maze = {
 >
 > [합성수(合成數, Composite Number)](https://namu.wiki/w/합성수): 여러 소수(素數)들이 곱셈으로 합쳐져서 이루어진 수를 말한다. 즉 임의의 자연수 n에 대해 1과 자기 자신을 제외한 다른 약수가 존재할 때, 이 수를 합성수라고 한다.
 
-#### prime factor (현소인수 분해)
+#### prime factor (소인수 분해)
 - Q: 매개변수로 주어진 자연수 n을 소수로 약분하여, n을 구성하는 소수의 집합을 반환하는 factorize 함수를 구현하라 e.g. 100 = [2, 2, 5, 5]
 - S: 이중 루프
   - divider = 2를 초기 값으로, 입력값 n이 1보다 클동안, divider를 1씩 증가시키면서 루프
@@ -221,16 +221,16 @@ int[] in = { 15, 23, 16, 21, 6, 8, 46, 40, 37, 43, 8, 3, 33 };
   - @see [dev.appkr.algorithm.random.RandomHex](/java/src/main/java/dev/appkr/algorithm/random/RandomHex.java)
 
 #### sum of linked list
-- Q: 연결 리스트를 구현하고, 합을 구하라
+- Q: 길이가 같은 연결 리스트를 구현하고, 합을 구하라; 합한 값이 10 이상이면, 앞 Node로 올림한다
 ```java
-l1 = [1, 2, 3]
-l2 = [4, 5, 6]
+h1 = [1, 2, 3]
+h2 = [6, 7, 8]
 ```
 - E
 ```java
-[5, 7, 9]
+[8, 0, 1]
 ```
-- S: TODO
+- S: @see [dev.appkr.algorithm.list.SumOfLinkedList](/java/src/main/java/dev/appkr/algorithm/list/SumOfLinkedList.java)
 
 #### password strength checker
 - TODO https://www.youtube.com/watch?v=6Vt-wKPBbuc
@@ -241,34 +241,34 @@ l2 = [4, 5, 6]
 
 No| Question|Solution
 ---|---|---
-1|[Two Sum](https://leetcode.com/problems/two-sum/)                                                                                                 |
-2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                                 |
-3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                   |
-4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                                                         |
-5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)                                                     |
-7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                                                                 |
-8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                                                 |
-9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                                                             |
-11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                                             |
-12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                                               |
-13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                                               |
-14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                                     |
-15|[3Sum](https://leetcode.com/problems/3sum/)                                                                                                       |
-17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)                                     |
-19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                                               |
-20|[Valid Parentheses](https://leetcode.com/problemset/all/)                                                                                         |
-26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                                         |
-27|[Remove Element](https://leetcode.com/problems/remove-element/)                                                                                   |
-28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                                                             |
-33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                   |
-34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
-35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                                                   |
-53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                                                               |
-58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                                                         |
-66|[Plus One](https://leetcode.com/problems/plus-one/)                                                                                               |
-83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                           |
-88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                                                                           |
-94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                     |
+1|[Two Sum](https://leetcode.com/problems/two-sum/)|
+2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|
+3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|
+4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|
+5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|
+7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|
+8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|
+9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|
+11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|
+12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|
+13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|
+14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|
+15|[3Sum](https://leetcode.com/problems/3sum/)|
+17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|
+19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|
+20|[Valid Parentheses](https://leetcode.com/problemset/all/)|
+26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|
+27|[Remove Element](https://leetcode.com/problems/remove-element/)|
+28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|
+33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|
+34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|
+35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|
+53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|
+58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|
+66|[Plus One](https://leetcode.com/problems/plus-one/)|
+83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|
+88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|
+94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|
 
 ---
 
