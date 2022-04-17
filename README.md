@@ -204,7 +204,18 @@ int[] in = { 15, 23, 16, 21, 6, 8, 46, 40, 37, 43, 8, 3, 33 };
 
 #### masking
 - Q: 주어진 문자열의 첫 문자, 마지막 문자를 제외한 문자를 *로 마스킹하라
-- S: TODO
+```java
+"ewXsZeUo40xNHNCOpLl76ahX1NJWmZj3"
+```
+- E
+```java
+"e******************************3"
+```
+- S: @see [dev.appkr.algorithm.masking.Masking](/java/src/main/java/dev/appkr/algorithm/masking/Masking.java)
+
+#### hex
+- Q: 랜던 32bit hex를 생성하는 generate 함수를 구현하라
+- S: @see 
 
 #### sum of linked list
 - Q: 연결 리스트를 구현하고, 합을 구하라
