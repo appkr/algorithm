@@ -214,8 +214,11 @@ int[] in = { 15, 23, 16, 21, 6, 8, 46, 40, 37, 43, 8, 3, 33 };
 - S: @see [dev.appkr.algorithm.masking.Masking](/java/src/main/java/dev/appkr/algorithm/masking/Masking.java)
 
 #### hex
-- Q: 랜던 32bit hex를 생성하는 generate 함수를 구현하라
-- S: @see 
+- Q: 랜던 64bit hex를 생성하는 generate 함수를 구현하라
+- S
+  - 16은 2^4이므로, 16진수 하나가 4bit를 표현함; 64bit / 4bit = 16
+  - 16진수 16자리를 만들어야 함
+  - @see [dev.appkr.algorithm.random.RandomHex](/java/src/main/java/dev/appkr/algorithm/random/RandomHex.java)
 
 #### sum of linked list
 - Q: 연결 리스트를 구현하고, 합을 구하라
