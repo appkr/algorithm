@@ -242,7 +242,7 @@ h2 = [6, 7, 8]
 No| Question|Solution
 ---|---|---
 1|[Two Sum](https://leetcode.com/problems/two-sum/)|[dev.appkr.leetcode.TwoSum](/java/src/main/java/dev/appkr/leetcode/TwoSum.java)
-2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|
+2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[dev.appkr.leetcode.AddTwoNumbers](/java/src/main/java/dev/appkr/leetcode/AddTwoNumbers.java)
 3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|
 4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|
 5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|
