@@ -243,8 +243,8 @@ No| Question|Solution
 ---|---|---
 1|[Two Sum](https://leetcode.com/problems/two-sum/)|[dev.appkr.leetcode.TwoSum](/java/src/main/java/dev/appkr/leetcode/TwoSum.java)
 2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[dev.appkr.leetcode.AddTwoNumbers](/java/src/main/java/dev/appkr/leetcode/AddTwoNumbers.java)
-3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[dev.appkr.leetcode.LongestSubstring]((/java/src/main/java/dev/appkr/leetcode/LongestSubstring.java))
-4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|
+3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[dev.appkr.leetcode.LongestSubstring](/java/src/main/java/dev/appkr/leetcode/LongestSubstring.java)
+4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[dev.appkr.leetcode.MediaOfArray](/java/src/main/java/dev/appkr/leetcode/MediaOfArray.java)
 5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|
 8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|
