@@ -248,8 +248,8 @@ No| Question|Solution
 5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[dev.appkr.leetcode.PalindromicSubstring](/java/src/main/java/dev/appkr/leetcode/PalindromicSubstring.java)
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[dev.appkr.leetcode.ReverseInteger](/java/src/main/java/dev/appkr/leetcode/ReverseInteger.java)
 8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[dev.appkr.leetcode.StringToInteger](/java/src/main/java/dev/appkr/leetcode/StringToInteger.java)
-9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|
-11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|
+9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[dev.appkr.algorithm.palindrome.Palindrome3](/java/src/main/java/dev/appkr/algorithm/palindrome/Palindrome3.java)
+11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[dev.appkr.leetcode.ContainerWithMostWater](/java/src/main/java/dev/appkr/algorithm/palindrome/ContainerWithMostWater.java)
 12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|
 13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|
 14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|
