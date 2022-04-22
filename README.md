@@ -249,11 +249,11 @@ No| Question|Solution
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[dev.appkr.leetcode.ReverseInteger](/java/src/main/java/dev/appkr/leetcode/ReverseInteger.java)
 8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[dev.appkr.leetcode.StringToInteger](/java/src/main/java/dev/appkr/leetcode/StringToInteger.java)
 9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[dev.appkr.algorithm.palindrome.Palindrome3](/java/src/main/java/dev/appkr/algorithm/palindrome/Palindrome3.java)
-11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[dev.appkr.leetcode.ContainerWithMostWater](/java/src/main/java/dev/appkr/algorithm/palindrome/ContainerWithMostWater.java)
-12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[dev.appkr.leetcode.IntToRoman](/java/src/main/java/dev/appkr/algorithm/palindrome/IntToRoman.java)
-13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[dev.appkr.leetcode.RomanToInt](/java/src/main/java/dev/appkr/algorithm/palindrome/RomanToInt.java)
-14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[dev.appkr.leetcode.LongestCommonPrefix](/java/src/main/java/dev/appkr/algorithm/palindrome/LongestCommonPrefix.java)
-15|[3Sum](https://leetcode.com/problems/3sum/)|
+11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[dev.appkr.leetcode.ContainerWithMostWater](/java/src/main/java/dev/appkr/leetcode/ContainerWithMostWater.java)
+12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[dev.appkr.leetcode.IntToRoman](/java/src/main/java/dev/appkr/leetcode/IntToRoman.java)
+13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[dev.appkr.leetcode.RomanToInt](/java/src/main/java/dev/appkr/leetcode/RomanToInt.java)
+14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[dev.appkr.leetcode.LongestCommonPrefix](/java/src/main/java/dev/appkr/leetcode/LongestCommonPrefix.java)
+15|[3Sum](https://leetcode.com/problems/3sum/)|[dev.appkr.leetcode.ThreeSum](/java/src/main/java/dev/appkr/leetcode/ThreeSum.java)
 17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|
 20|[Valid Parentheses](https://leetcode.com/problemset/all/)|
