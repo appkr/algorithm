@@ -256,7 +256,7 @@ No| Question|Solution
 15|[3Sum](https://leetcode.com/problems/3sum/)|[dev.appkr.leetcode.ThreeSum](/java/src/main/java/dev/appkr/leetcode/ThreeSum.java)
 17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[dev.appkr.leetcode.LetterCombination](/java/src/main/java/dev/appkr/leetcode/LetterCombination.java)
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[dev.appkr.leetcode.RemoveNthNode](/java/src/main/java/dev/appkr/leetcode/RemoveNthNode.java)
-20|[Valid Parentheses](https://leetcode.com/problemset/all/)|
+20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[dev.appkr.leetcode.ValidParentheses](/java/src/main/java/dev/appkr/leetcode/ValidParentheses.java)
 26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|
 27|[Remove Element](https://leetcode.com/problems/remove-element/)|
 28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|
