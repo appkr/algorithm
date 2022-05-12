@@ -257,7 +257,7 @@ No| Question|Solution
 17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[dev.appkr.leetcode.LetterCombination](/java/src/main/java/dev/appkr/leetcode/LetterCombination.java)
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[dev.appkr.leetcode.RemoveNthNode](/java/src/main/java/dev/appkr/leetcode/RemoveNthNode.java)
 20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[dev.appkr.leetcode.ValidParentheses](/java/src/main/java/dev/appkr/leetcode/ValidParentheses.java)
-26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|
+26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[dev.appkr.leetcode.RemoveDuplicateElement](/java/src/main/java/dev/appkr/leetcode/RemoveDuplicateElement.java)
 27|[Remove Element](https://leetcode.com/problems/remove-element/)|
 28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|
 33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|
