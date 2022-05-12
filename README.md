@@ -264,7 +264,7 @@ No| Question|Solution
 34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[dev.appkr.leetcode.SearchRange](/java/src/main/java/dev/appkr/leetcode/SearchRange.java)
 35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[dev.appkr.leetcode.SearchInsertPosition](/java/src/main/java/dev/appkr/leetcode/SearchInsertPosition.java)
 53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[dev.appkr.leetcode.MaximumSubArray](/java/src/main/java/dev/appkr/leetcode/MaximumSubArray.java)
-58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|
+58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[dev.appkr.leetcode.LengthOfLastWord](/java/src/main/java/dev/appkr/leetcode/LengthOfLastWord.java)
 66|[Plus One](https://leetcode.com/problems/plus-one/)|
 83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|
 88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|
