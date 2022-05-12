@@ -260,7 +260,7 @@ No| Question|Solution
 26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[dev.appkr.leetcode.RemoveDuplicateElement](/java/src/main/java/dev/appkr/leetcode/RemoveDuplicateElement.java)
 27|[Remove Element](https://leetcode.com/problems/remove-element/)|[dev.appkr.leetcode.RemoveElement](/java/src/main/java/dev/appkr/leetcode/RemoveElement.java)
 28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[dev.appkr.leetcode.Strstr](/java/src/main/java/dev/appkr/leetcode/Strstr.java)
-33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|
+33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[dev.appkr.leetcode.SearchInRotated](/java/src/main/java/dev/appkr/leetcode/SearchInRotated.java)
 34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|
 35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|
 53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|
