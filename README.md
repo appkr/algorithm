@@ -268,7 +268,7 @@ No| Question|Solution
 66|[Plus One](https://leetcode.com/problems/plus-one/)|[dev.appkr.leetcode.PlusOne](/java/src/main/java/dev/appkr/leetcode/PlusOne.java)
 83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[dev.appkr.leetcode.RemoveDuplicateLink](/java/src/main/java/dev/appkr/leetcode/RemoveDuplicateLink.java)
 88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[dev.appkr.leetcode.MergeSortedArray](/java/src/main/java/dev/appkr/leetcode/MergeSortedArray.java)
-94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|
+94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[dev.appkr.leetcode.InOrderTraversal](/java/src/main/java/dev/appkr/leetcode/InOrderTraversal.java)
 
 ---
 
