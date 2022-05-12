@@ -258,7 +258,7 @@ No| Question|Solution
 19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[dev.appkr.leetcode.RemoveNthNode](/java/src/main/java/dev/appkr/leetcode/RemoveNthNode.java)
 20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[dev.appkr.leetcode.ValidParentheses](/java/src/main/java/dev/appkr/leetcode/ValidParentheses.java)
 26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[dev.appkr.leetcode.RemoveDuplicateElement](/java/src/main/java/dev/appkr/leetcode/RemoveDuplicateElement.java)
-27|[Remove Element](https://leetcode.com/problems/remove-element/)|
+27|[Remove Element](https://leetcode.com/problems/remove-element/)|[dev.appkr.leetcode.RemoveElement](/java/src/main/java/dev/appkr/leetcode/RemoveElement.java)
 28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|
 33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|
 34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|
