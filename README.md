@@ -17,7 +17,7 @@ List<String> strList = List.of("eat", "tea", "tan", "ate", "nat", "bat");
   - 문자 단위로 쪼개서 정렬하고 다시 조인
   - 정렬된 단어를 key로 하여, 원본 문자열을 value 리스트에 추가
   - @see [dev.appkr.algorithm.anagrams.Anagrams](/java/src/main/java/dev/appkr/algorithm/anagrams/Anagrams.java)
-  - @see [dev.appkr.algorithm.anagrams.Anagrams2](/java/src/main/java/dev/appkr/algorithm/anagrams/Anagrams.java)
+  - @see [dev.appkr.algorithm.anagrams.Anagrams2](/java/src/main/java/dev/appkr/algorithm/anagrams/Anagrams2.java)
 
 #### print binary
 - Q: 주어진 자연수를 이진수로 출력하라
@@ -235,7 +235,8 @@ h2 = [6, 7, 8]
 - S: @see [dev.appkr.algorithm.list.SumOfLinkedList](/java/src/main/java/dev/appkr/algorithm/list/SumOfLinkedList.java)
 
 #### password strength checker
-- TODO https://www.youtube.com/watch?v=6Vt-wKPBbuc
+- Q: https://www.youtube.com/watch?v=6Vt-wKPBbuc
+- - S: @see [dev.appkr.algorithm.password.PasswordChecker](/java/src/main/java/dev/appkr/algorithm/password/PasswordChecker.java)
 
 ---
 
@@ -278,12 +279,12 @@ No| Question|Solution
 
 Question|Solution
 ---|---
-[HourGlass](https://www.hackerrank.com/challenges/2d-array/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[dev.appkr.hackerrank.HourGlass](/java/dev/appkr/hackerrank/HourGlass.java)
-[LeftRotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[dev.appkr.hackerrank.LeftRotation](/java/dev/appkr/hackerrank/LeftRotation.java)
-[New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[dev.appkr.hackerrank.NewYearChaos](/java/dev/appkr/hackerrank/NewYearChaos.java)
-[Mininum Swap](https://www.hackerrank.com/challenges/minimum-swaps-2/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[dev.appkr.hackerrank.MinimumSwap](/java/dev/appkr/hackerrank/MinimumSwap.java)
-[RansomeNote](https://www.hackerrank.com/challenges/ctci-ransom-note/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps)|[dev.appkr.hackerrank.RansomNote](/java/dev/appkr/hackerrank/RansomNote.java)
-[Two Strings](https://www.hackerrank.com/challenges/two-strings/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps)|[dev.appkr.hackerrank.TwoStrings](/java/dev/appkr/hackerrank/TwoStrings.java)
-[Making Anagrams](https://www.hackerrank.com/challenges/ctci-making-anagrams/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=strings)|[dev.appkr.hackerrank.MakingAnagrams](/java/dev/appkr/hackerrank/MakingAnagrams.java)
-[Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=strings)|[dev.appkr.hackerrank.AlternatingCharacters](/java/dev/appkr/hackerrank/AlternatingCharacters.java)
-[Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=strings)|[dev.appkr.hackerrank.SherlockValidString](/java/dev/appkr/hackerrank/SherlockValidString.java)
+[HourGlass](https://www.hackerrank.com/challenges/2d-array/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[dev.appkr.hackerrank.HourGlass](/java/src/main/java/dev/appkr/hackerrank/HourGlass.java)
+[LeftRotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[dev.appkr.hackerrank.LeftRotation](/java/src/main/java/dev/appkr/hackerrank/LeftRotation.java)
+[New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[dev.appkr.hackerrank.NewYearChaos](/java/src/main/java/dev/appkr/hackerrank/NewYearChaos.java)
+[Mininum Swap](https://www.hackerrank.com/challenges/minimum-swaps-2/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[dev.appkr.hackerrank.MinimumSwap](/java/src/main/java/dev/appkr/hackerrank/MinimumSwap.java)
+[RansomeNote](https://www.hackerrank.com/challenges/ctci-ransom-note/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps)|[dev.appkr.hackerrank.RansomNote](/java/src/main/java/dev/appkr/hackerrank/RansomNote.java)
+[Two Strings](https://www.hackerrank.com/challenges/two-strings/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps)|[dev.appkr.hackerrank.TwoStrings](/java/src/main/java/dev/appkr/hackerrank/TwoStrings.java)
+[Making Anagrams](https://www.hackerrank.com/challenges/ctci-making-anagrams/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=strings)|[dev.appkr.hackerrank.MakingAnagrams](/java/src/main/java/dev/appkr/hackerrank/MakingAnagrams.java)
+[Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=strings)|[dev.appkr.hackerrank.AlternatingCharacters](/java/src/main/java/dev/appkr/hackerrank/AlternatingCharacters.java)
+[Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=strings)|[dev.appkr.hackerrank.SherlockValidString](/java/src/main/java/dev/appkr/hackerrank/SherlockValidString.java)

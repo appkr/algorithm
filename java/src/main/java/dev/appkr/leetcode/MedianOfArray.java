@@ -22,7 +22,7 @@ import java.util.Arrays;
  * 1 <= m + n <= 2000
  * -106 <= nums1[i], nums2[i] <= 106
  */
-public class MediaOfArray {
+public class MedianOfArray {
 
   public static void main(String[] args) {
     int[] nums1 = {1, 3};

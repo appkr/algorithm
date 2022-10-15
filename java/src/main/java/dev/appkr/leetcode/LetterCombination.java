@@ -1,7 +1,5 @@
 package dev.appkr.leetcode;
 
-import static java.util.Arrays.asList;
-
 import java.util.ArrayList;
 import java.util.List;
 
