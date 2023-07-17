@@ -1,4 +1,4 @@
-package cote;
+package dev.appkr.kata;
 
 import static java.util.Arrays.asList;
 

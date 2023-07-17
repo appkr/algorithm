@@ -1,4 +1,4 @@
-package cote;
+package dev.appkr.kata;
 
 public class SlidingWindow {
 

@@ -1,4 +1,4 @@
-package cote;
+package dev.appkr.kata;
 
 import java.util.*;
 import java.util.stream.Collectors;

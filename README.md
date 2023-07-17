@@ -2,6 +2,18 @@
 
 Q: Question, E: Example, S: Solution
 
+#### find bigger one
+- @see [dev.appkr.kata.BiggerOne](/java/src/main/java/dev/appkr/kata/BiggerOne.java)
+
+#### calculate percentile
+- @see [dev.appkr.kata.Percentile](/java/src/main/java/dev/appkr/kata/Percentile.java)
+
+#### sum of sliding window
+- @see [dev.appkr.kata.SlidingWindow](/java/src/main/java/dev/appkr/kata/SlidingWindow.java)
+
+#### implement in-memory filesystem
+- @see [dev.appkr.kata.InMemoryFileSystem](/java/src/main/java/dev/appkr/kata/InMemoryFileSystem.java)
+
 #### combination
 - @see [dev.appkr.algorithm.combination.Combination1](/java/src/main/java/dev/appkr/algorithm/combination/Combination1.java)
 - @see [dev.appkr.algorithm.combination.Combination1](/java/src/main/java/dev/appkr/algorithm/combination/Combination2.java)
