@@ -14,6 +14,10 @@ Q: Question, E: Example, S: Solution
 #### implement in-memory filesystem
 - @see [dev.appkr.kata.InMemoryFileSystem](/java/src/main/java/dev/appkr/kata/InMemoryFileSystem.java)
 
+#### implement LRU cache
+- @see [dev.appkr.kata.LRU](/java/src/main/java/dev/appkr/kata/LRU.java)
+- reference https://www.baeldung.com/java-lru-cache
+
 #### combination
 - @see [dev.appkr.algorithm.combination.Combination1](/java/src/main/java/dev/appkr/algorithm/combination/Combination1.java)
 - @see [dev.appkr.algorithm.combination.Combination1](/java/src/main/java/dev/appkr/algorithm/combination/Combination2.java)
